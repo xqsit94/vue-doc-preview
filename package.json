@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A simple Vue 3 component to preview documents",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/vue-doc-preview.es.js",
   "module": "dist/vue-doc-preview.umd.js",
   "exports": {
@@ -46,5 +48,13 @@
     "pptx"
   ],
   "author": "xqsit94",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xqsit94/vue-doc-preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xqsit94/vue-doc-preview/issues"
+  },
+  "homepage": "https://github.com/xqsit94/vue-doc-preview#readme"
 }
