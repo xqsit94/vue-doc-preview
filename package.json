@@ -1,6 +1,6 @@
 {
   "name": "@xqsit94/vue-doc-preview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple Vue 3 component to preview documents",
   "type": "module",
   "files": [
@@ -54,7 +54,8 @@
     "url": "git+https://github.com/xqsit94/vue-doc-preview.git"
   },
   "publishConfig": {
-    "@xqsit94:registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
   },
   "bugs": {
     "url": "https://github.com/xqsit94/vue-doc-preview/issues"
