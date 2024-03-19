@@ -54,7 +54,7 @@
     "url": "git+https://github.com/xqsit94/vue-doc-preview.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
+    "registry": "https://npm.pkg.github.com/xqsit94",
     "access": "public"
   },
   "bugs": {
