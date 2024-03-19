@@ -1,0 +1,15 @@
+.vscode
+.github
+node_modules
+.DS_Store
+dist-ssr
+*.local
+src
+.gitattributes
+.gitignore
+.eslintrc.cjs
+.prettierrc.json
+bun.lockb
+jsconfig.json
+index.html
+vite.config.ts
