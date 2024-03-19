@@ -1,0 +1,50 @@
+{
+  "name": "@xqsit94/vue-doc-preview",
+  "version": "1.0.0",
+  "description": "A simple Vue 3 component to preview documents",
+  "type": "module",
+  "files": ["dist"],
+  "main": "dist/vue-doc-preview.es.js",
+  "module": "dist/vue-doc-preview.umd.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-doc-preview.es.js",
+      "require": "./dist/vue-doc-preview.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.3.3",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.3",
+    "vite": "^5.1.5",
+    "vite-plugin-vue-devtools": "^7.0.16"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "document",
+    "preview",
+    "pdf",
+    "doc",
+    "docx",
+    "xls",
+    "xlsx",
+    "ppt",
+    "pptx"
+  ],
+  "author": "xqsit94",
+  "license": "MIT"
+}
